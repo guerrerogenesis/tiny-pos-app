@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-white-1;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+input {
+  @apply bg-slate-200 text-slate-900 rounded-sm;
+}
+
+p {
+  @apply text-slate-800 font-light text-base  ;
+}
+
+h2 {
+  @apply text-3xl font-medium text-slate-800 ;
+}
